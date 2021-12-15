@@ -74,6 +74,6 @@ io.on("connect", (socket) => {
   });
 });
 
-server.listen(process.env.PORT || 5000, () =>
-  console.log(`Server has started. 5000 port`)
+server.listen(process.env.PORT || 25000, () =>
+  console.log(`Server has started. 25000 port`)
 );
